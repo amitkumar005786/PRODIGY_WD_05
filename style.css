@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  margin: auto;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.stopwatch {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.timerDisplay {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 12px;
+}
+
+.buttons button {
+  padding: 8px 10px;
+  border-radius: 10px;
+
+  background: none;
+  background-color: cyan;
+  border: none;
+  
+  /* color: white; */
+}
+
+.buttons #Stopbtn {
+  background-color: rgb(245, 62, 62);
+  color: white;
+}
+
+.buttons #Startbtn {
+  background-color: green;
+  color: white;
+}
+.buttons #Resetbtn {
+  background-color: blue;
+  color: white;
+}
